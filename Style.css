@@ -1,69 +1,44 @@
-/* Imagenes */
-img {
-
-    text-align: middle;
+.contenedor-imagenes{
+    justify-content: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+    gap: 40px;
     padding: 50px;
-    width: 200px;
-
 }
 
-/* Fisiologia general */
-body{
-
-    background-color: rgb(252, 252, 181);
-
-}
-
-
-/* Interactivos */
-.button {
-
-    padding: 8px 24px;
-    color: rgb(255, 0, 0);
-    background-color: rgba(238, 250, 0, 0.941);
-    display: inline-block;
-    border-radius: 200px;
-    
-}
-
-/* Maquillaje de los botones */
-.Inicio{
-
-    padding: 8px 24px;
-    color: rgb(255, 0, 0);
-    background-color: rgba(238, 250, 0, 0.941);
-    display: inline-block;
-    border-radius: 200px;
-
-}
-
-/* Clases */
-
-
-.City{
-    text-align: center;
-}
-
-.PSG{
-    text-align: center;
-}
-
-.Liverpool{
-    text-align: center;
-}
-
-.Fast{
+.between{
     display: flex;
     justify-content: space-between;
-    border-style: solid;
-    font-size: 30px;
 }
 
-
-/* Palabras */
-
-h2{
-
-font-size: 40x;
-
+.barra{
+    border: 5px solid blue;
+    width: 1700px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+.centrar{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    font-size: 40px;
+    gap: 60px;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+}
+
+.flex{
+    display: flex;
+}
+
+ 
